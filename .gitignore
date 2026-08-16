@@ -77,6 +77,8 @@ public/
 
 # dotenv environment variable files
 .env
+.env*
+!.env.example
 .env.development.local
 .env.test.local
 .env.production
@@ -86,6 +88,9 @@ public/
 .env.dev
 .env.test
 .env.migration
+.env-production
+*.pem
+*.key
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
